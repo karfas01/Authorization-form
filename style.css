@@ -1,0 +1,81 @@
+body {
+    animation: exampleAnimation 6s infinite alternate;
+    font-family: Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    overflow: hidden;
+    background-image: url(background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form {
+    background-color: #f0f0f0;
+    padding: 50px 30px 44px;
+    border-radius: 1.25rem;
+    text-align: center;
+    width: 30%;
+}
+.authorization{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 36px;
+}
+input, button {
+    margin: 0 auto;
+    height: 50px;
+}
+input {
+
+    border: 2px solid #ebebeb;
+    border-radius: 1.25rem;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 0 10px;
+    width: 80%;
+}
+input:hover {
+    border: 2px solid #10449A;
+    transition: all 0.375s;
+}
+button {
+    background-color: #5b1098;
+    border-radius: 1.25rem;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 2px;
+    color: #f9f9f9;
+    cursor: pointer;
+    padding: 0 16px;
+    font-size: 1rem;
+    width: 85%;
+    border: 0;
+}
+button:hover {
+    background-color: #4a0e7a;
+    background-color: #981086;
+    transition: all 0.375s;
+}
+a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 10%;
+    text-align: left;
+    color: #5b1098;
+}
+a:hover {
+    transition: all 0.375s;
+    color: #981086;
+}
+@keyframes exampleAnimation {
+    100% {
+        background-position: 15% 50%;
+    }
+}
